@@ -15,11 +15,6 @@ public final class CoinSystem {
 
 		int[] table= new int[amount+1];
 		
-		
-		for(int i=1; i<=amount; i++) {
-			table[i]=Integer.MAX_VALUE;
-		}
-		
 		table[0]=1;
 		int[] check=new int[amount+1];
 		
